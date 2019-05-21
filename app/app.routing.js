@@ -15,6 +15,7 @@ angular.module("myApp").config(function ($routeProvider) {
         controller : "matrixctrl"
     })
     .when("/aboutme",{
-        templateUrl: "C:/Users/S533576/Desktop/Angular/Demo/angular_sample_app/app/components/aboutme/index.html"
+        templateUrl: "app/components/aboutme/index.html",
+        controller: "Student"
     });
 });
